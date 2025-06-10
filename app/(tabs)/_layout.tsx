@@ -40,6 +40,27 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
       />
+      <Tabs.Screen
+        name="onboarding"
+        options={{
+          title: 'Onboarding',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="circle.fill" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="landing"
+        options={{
+          title: 'Landing',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="square.fill" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="profile"
+        options={{
+          title: 'Profile',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="person.fill" color={color} />,
+        }}
+      />
     </Tabs>
   );
 }

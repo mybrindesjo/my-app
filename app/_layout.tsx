@@ -22,6 +22,9 @@ export default function RootLayout() {
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
+        <Stack.Screen name="onboarding" options={{ title: 'Onboarding' }} />
+        <Stack.Screen name="landing" options={{ title: 'Landing Page' }} />
+        <Stack.Screen name="profile" options={{ title: 'Profile Page' }} />
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>

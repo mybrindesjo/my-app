@@ -1,5 +1,5 @@
 import { Image } from "expo-image";
-import { StyleSheet } from "react-native";
+import { StyleSheet, Text } from "react-native";
 
 import ParallaxScrollView from "@/components/ParallaxScrollView";
 import { ThemedView } from "@/components/ThemedView";
@@ -18,6 +18,7 @@ export default function HomeScreen() {
       }
     >
       <ThemedView style={styles.titleContainer}>
+        <Text>Welcome to the Home Screen!</Text>
         <LoginForm />
       </ThemedView>
     </ParallaxScrollView>
